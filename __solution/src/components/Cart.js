@@ -11,6 +11,7 @@ import Button from './Button';
 const Cart = () => {
   const items = useSelector(getItemArray);
   const subtotal = useSelector(getSubtotal);
+  const state = useSelector(state => state)
 
   return (
     <Wrapper>
